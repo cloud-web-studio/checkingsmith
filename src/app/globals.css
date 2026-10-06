@@ -1,0 +1,71 @@
+.MuiLinearProgress-colorPrimary > .MuiLinearProgress-bar{
+    /* background-color: #86d05c; */
+    background-color: white;
+}
+
+.MuiLinearProgress-colorPrimary{
+    height: 5px !important;
+}
+
+.custombanner {
+    height: 200px;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    padding-left: 24px;
+    padding-bottom: 109px;
+    background: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 50%)), url(https://static.vecteezy.com/system/resources/thumbnails/017/046/997/small/cheering-banner-football-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+
+/* .MuiDataGrid-withBorderColor{
+    border-color: white !important;
+} */
+
+
+.rocking > div:first-child:not(:only-child):before {
+    display: block;
+    content: "";
+    color: black;
+    height: 30px;
+    width: 1.5px;
+    top: 18px;
+    position: absolute;
+    background-color: black;
+}
+
+.rocking {
+    position: relative;
+}
+
+.rocking > div:last-child:not(:only-child):before {
+    display: block;
+    content: "";
+    color: black;
+    height: 30px;
+    width: 1.5px;
+    bottom: 18px;
+    position: absolute;
+    background-color: black;
+}
+
+.rocking > div:not(:first-child):not(:last-child) {
+    /* height: 75px; */
+    border-left: 2px solid black;
+}
+
+.rocking > div {
+    height: 38px;
+}
+
+.MuiFormControl-root > .MuiInputBase-root{
+    height: 50px !important;
+}
+
+.MuiFormControl-root > .MuiInputBase-root:hover{
+    border-color: #58a6ff !important;
+}
