@@ -16,6 +16,7 @@ export async function LoginOrRegister(authstate, email, password) {
       return {error: error ? true : false , msg: error?.message};
     }else{
       const { error } = await supabase.auth.signUp({ email, password });
+      console.log(error)
       // const { data, error } = await supabase.auth.signInWithOtp({ email, 
       //   options: {
       //     shouldCreateUser: true, 
